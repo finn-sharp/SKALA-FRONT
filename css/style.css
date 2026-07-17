@@ -56,7 +56,13 @@ input[type="reset"] {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-color: #000000;
+  }
+  
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: rgb(143, 143, 143) !important; /* 마우스 올렸을 때 진해질 배경색 */
+  color: #000000;            /* 마우스 올렸을 때 바뀔 글자색 */
 }
 
 #userEmail,
@@ -160,6 +166,7 @@ header {
   outline:none;
   color:inherit;
 }
+
 .logo:hover{
   transform: scale(1.1);
 }
@@ -183,15 +190,21 @@ nav {
   /* layout  */
   cursor: pointer;
   display: block;
-  padding-right:3.3px;
+  padding-inline:3.3px;
 
   /* skin */
   font-size:24px;
   font-weight: bold;
+  border-radius: 5px;
+
+  /* interaction */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .main_sub_text:hover{
   /* interaction */
   transform: scale(1.1);
+  background-color:black ;
+  color: white;
 }
 
 .main_nav {
@@ -225,12 +238,24 @@ nav {
 }
 
 li a {
+  /* layout */
+  padding-inline:0.5rem;
+
   /* skin */
   color: inherit;
+  border-radius: 5px;
 
   /* interaction */
   text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+li a:hover{
+  /* interaction */
+  transform: scale(1.1);
+  background-color:black ;
+  color: white;
+}
+
 
 hr {
   /* layout */
