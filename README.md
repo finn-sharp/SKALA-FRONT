@@ -23,7 +23,7 @@ CSS를 설계하는 관점을 공부하면서 OOCSS에 대해 학습했습니다
 - OOCSS 원리를 적용해 재사용 가능한 스타일을 만드는 방법 공부
     - `Container`와 `Context`를 나눠서 UI를 설계하는 연습
     - `layout`, `skin`, `interaction`, `animation`으로 CSS 책임을 분리해보는 실습
-    - `semantic HTML`, `body`, wrapper, `container` 단위에서 `margin`과 `padding`을 어떤 기준으로 정해야 하는지 공부
+    - `semantic HTML`, `body`, `wrapper`, `container` 단위에서 `margin`과 `padding`을 어떤 기준으로 정해야 하는지 공부
 
 ## 공부한 내용
 
@@ -33,7 +33,7 @@ CSS를 설계하는 관점을 공부하면서 OOCSS에 대해 학습했습니다
 - 인터랙션 잡기: hover, focus, active 같은 상태 변화 반영
 - 애니메이션 잡기: transition, transform, 자연스러운 움직임 표현
 - semantic HTML 구조를 고려해서 전체 페이지를 설계하는 방법
-- wrapper와 `container` 단위의 spacing 규칙을 정리해 페이지 전체 흐름을 일관되게 만드는 방법
+- `wrapper`와 `container` 단위의 spacing 규칙을 정리해 페이지 전체 흐름을 일관되게 만드는 방법
 
 
 ## 프로젝트 구조
